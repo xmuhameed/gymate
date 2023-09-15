@@ -49,7 +49,7 @@ const ForgotPassword = () => {
             <input
               type="submit"
               value="Rest Password"
-              className="w-full bg-[color:var(--mainRed)] text-white py-3 my-5"
+              className="w-full bg-[color:var(--mainRed)] text-white py-3 my-5 cursor-pointer"
               disabled={loading}
             />
             <div className="text-sm">
