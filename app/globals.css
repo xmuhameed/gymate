@@ -55,6 +55,9 @@
   animation: rotate 0.8s ease-in-out;
   -webkit-animation: rotate 0.8s ease-in-out;
 }
+.bgHover:hover {
+  background-image: url("../public/images/who-we-are/info-card-bg.jpg");
+}
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
