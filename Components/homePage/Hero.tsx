@@ -48,7 +48,7 @@ export const Hero = () => {
     <div className="bgHover xl-w-[25vw] h-[22vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-12 px-8">
         <Image src={workout} width={75} height={75} alt="img" className="mx-auto" />
         <h2 className="font-bold text-2xl mt-2 mb-4">WORKOUT</h2>
-        <p className="">With a variety of workouts to choose from, you'll have everything you need to get into the best shape of your life.</p>
+        <p className="">With a variety of workouts to choose from, you&apos;ll have everything you need to get into the best shape of your life.</p>
     </div>
     <div className="bgHover xl-w-[25vw] h-[22vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-12 px-8">
         <Image src={nutritions} width={75} height={75} alt="img" className="mx-auto" />
