@@ -1,0 +1,52 @@
+.bgh {
+  background-image: url(../../public/images/hero/hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 45% center;
+  display: block;
+  height: calc(100vh + 5rem);
+}
+.join-class:hover .rotate-el {
+  animation: rotate 0.8s ease-in-out;
+  -webkit-animation: rotate 0.8s ease-in-out;
+}
+.whoAreWeBg{
+  background-image: url("../../public/images/who-we-are/background.jpg");
+}
+.bgHover:hover {
+  background-image: url("../../public/images/who-we-are/info-card-bg.jpg");
+}
+.whoarediv{
+  background-image: url("../../public/images/who-we-are/girl-redbg.svg"), url("../../public/images/who-we-are/girl-side-text.png");
+  background-position: 70% center, 0% center;
+  background-size: auto, contain;
+} 
+.whoarespan {
+    background-image: url("../../public/images/who-we-are/wind.png");
+    background-size: cover;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  99% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+}

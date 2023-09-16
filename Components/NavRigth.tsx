@@ -53,7 +53,7 @@ export const NavRigth = () => {
       </div>
       <div
         className={`w-full sm:w-[400px] h-screen overflow-y-scroll bg-white absolute top-0 duration-300 py-12 px-9 z-20 ${
-          sidebar ? "left-0" : "-left-[500px]"
+          sidebar ? "left-0" : "-left-[1000px]"
         }`}
       >
         <div className="flex justify-between items-center">

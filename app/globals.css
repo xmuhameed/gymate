@@ -1,6 +1,8 @@
+@import './styles/home.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --mainRed: #FF0336;
@@ -33,16 +35,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #ff0335c2;
 }
-.bgh {
-  background-image: url("../public/images/hero/hero-img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 45% center;
-  display: block;
-  height: calc(100vh + 5rem);
-}
 .landing {
-  background-image: url("../public/images/login/banner.jpg");
+  background-image: url(../public/images/login/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -50,34 +44,4 @@
 }
 .title-white {
   filter: brightness(0) invert(1);
-}
-.join-class:hover .rotate-el {
-  animation: rotate 0.8s ease-in-out;
-  -webkit-animation: rotate 0.8s ease-in-out;
-}
-.bgHover:hover {
-  background-image: url("../public/images/who-we-are/info-card-bg.jpg");
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-}
-  99% {
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-}
-  100% {
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-}
 }
