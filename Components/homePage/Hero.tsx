@@ -40,17 +40,17 @@ export const Hero = () => {
     </div>
   </section>
   <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 place-content-around -mt-12 mb-10 mx-10 xl:mx-36">
-    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-16 px-8">
+    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-20 px-8">
         <Image src={progresion} width={75} height={75} alt="img" className="mx-auto" />
         <h2 className="font-bold text-2xl mt-2 mb-4">PROGRESSION</h2>
         <p className="">Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.</p>
     </div>
-    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-16 px-8">
+    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-20 px-8">
         <Image src={workout} width={75} height={75} alt="img" className="mx-auto" />
         <h2 className="font-bold text-2xl mt-2 mb-4">WORKOUT</h2>
         <p className="">With a variety of workouts to choose from, you&apos;ll have everything you need to get into the best shape of your life.</p>
     </div>
-    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-16 px-8">
+    <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-20 px-8">
         <Image src={nutritions} width={75} height={75} alt="img" className="mx-auto" />
         <h2 className="font-bold text-2xl mt-2 mb-4">NUTRITIONS</h2>
         <p className="">Our team will work with you to create a personalized meal plan that helps you reach your specific health goals.</p>

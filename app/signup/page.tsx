@@ -68,7 +68,7 @@ const Signup = () => {
             />
             <input
               type="submit"
-              value="Signin"
+              value="Sign Up"
               className="w-full bg-[color:var(--mainRed)] text-white py-3 my-5 cursor-pointer"
               disabled={loading}
             />
