@@ -58,15 +58,15 @@ export const WhoWeAre = () => {
       </div>
       <section className="min-h-screen bg-cover bg-center whoAreWeBg">
         <div className="mx-10 xl:mx-36 pt-[69rem] sm:pt-[63rem] md:pt-[62rem] lg:pt-80 ">
-          <div className="flex justify-center items-center mt-16 mb-72">
-            <div className="lg:w-[50%] md:pr-9 max-md:text-center">
-              <div className="max-md:mx-auto max-md:w-fit">
+          <div className="flex justify-center items-center mt-16 mb-36">
+            <div className="lg:w-[50%] lg:pr-9 max-lg:text-center">
+              <div className="max-lg:mx-auto max-lg:w-fit">
                 <MainTitle content="Who We Are" width={200} height={200} />
               </div>
               <h2 className="font-bold text-4xl my-5">
                 Take Your Health And Body To Next Level
               </h2>
-              <p className="text-gray-500 md:text-lg">
+              <p className="text-gray-500 lg:text-lg">
                 Take your health and body to the next level with our
                 comprehensive program designed to help you reach your fitness
                 goals.
@@ -103,7 +103,7 @@ export const WhoWeAre = () => {
                   <h3 className="font-bold text-lg">FANCY GYM MACHINES</h3>
                 </div>
               </div>
-              <div className="max-md:mx-auto max-md:w-fit">
+              <div className="max-lg:mx-auto max-lg:w-fit max-lg:mb-10">
                 <Button content="TAKE A TOUR" variant="gray" />
               </div>
             </div>

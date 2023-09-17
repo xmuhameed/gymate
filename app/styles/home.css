@@ -25,6 +25,47 @@
     background-image: url("../../public/images/who-we-are/wind.png");
     background-size: cover;
 }
+.ourFeatured .ourFeaturedSpan{
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 40px;
+}
+.ourFeatured:nth-child(1) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/gym-bike.png");
+}
+.ourFeatured:nth-child(1):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/bike-red.png");
+}
+.ourFeatured:nth-child(2) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/karate.png");
+}
+.ourFeatured:nth-child(2):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/karate-red.png");
+}
+.ourFeatured:nth-child(3) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/dumbbell.png");
+}
+.ourFeatured:nth-child(3):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/dumb-red.png");
+}
+.ourFeatured:nth-child(4) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/yoga.png");
+}
+.ourFeatured:nth-child(4):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/yoga-red.png");
+}
+.ourFeatured:nth-child(5) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/boxer.png");
+}
+.ourFeatured:nth-child(5):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/boxer-red.png");
+}
+.ourFeatured:nth-child(6) .ourFeaturedSpan{
+  background-image: url("../../public/images/features/workout.png");
+}
+.ourFeatured:nth-child(6):hover .ourFeaturedSpan{
+  background-image: url("../../public/images/features/workout-red.png");
+}
 
 
 @keyframes rotate {

@@ -1,4 +1,5 @@
 import { Hero } from "@/Components/homePage/Hero";
+import { OurFeaturedClass } from "@/Components/homePage/OurFeaturedClass";
 import { WhoWeAre } from "@/Components/homePage/WhoWeAre";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
       <Hero />
       {/* container "mx-10 xl:mx-36" */}
       <WhoWeAre />
-      {/* <OurFeaturedClass /> */}
+      <OurFeaturedClass />
       {/* <WhyChooseUs /> */}
       {/* <GymTrainers /> */}
       {/* <Testimonials /> */}
