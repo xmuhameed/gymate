@@ -10,7 +10,7 @@ export const NavLinks = ({active}: {active: boolean}) => {
         <Link className='hover:text-[var(--mainRed)]' href="/about">About</Link>
       </li>
       <li>
-        <Link className='hover:text-[var(--mainRed)]' href="/gallery">Gallery</Link>
+        <Link className='hover:text-[var(--mainRed)]' href="/gallery/page-1">Gallery</Link>
       </li>
       <li>
         <Link className='hover:text-[var(--mainRed)]' href="/schedule">Schedule</Link>
