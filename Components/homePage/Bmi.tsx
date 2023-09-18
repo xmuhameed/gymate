@@ -18,7 +18,7 @@ export const Bmi = () => {
     }
     return (
     <section className="BmiBg py-20">
-      <div className="mx-10 xl:mx-36 w-full md:w-1/2">
+      <div className="mx-10 xl:mx-36 w-5/6 md:w-1/2">
         <h2 className="font-bold text-xl md:text-5xl text-white mb-5">
           Let&apos;s Calculate Your{" "}
           <span className="text-[var(--mainRed)]">BMI</span>
