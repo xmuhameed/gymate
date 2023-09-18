@@ -29,6 +29,7 @@
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 40px;
+  pointer-events: none;
 }
 .ourFeatured:nth-child(1) .ourFeaturedSpan{
   background-image: url("../../public/images/features/gym-bike.png");
@@ -66,6 +67,66 @@
 .ourFeatured:nth-child(6):hover .ourFeaturedSpan{
   background-image: url("../../public/images/features/workout-red.png");
 }
+.ctaBg {
+  background-image: url("../../public/images/choose-us/cta-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.whyChooseUsBg {
+  background-image: url("../../public/images/choose-us/choose-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.GymTrainersBg {
+  background-image: url("../../public/images/trainers/bg-attachment.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.cardBg {
+  background-image: url("../../public/images/trainers/trainer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.testiMonialsBg {
+  background-image: url("../../public/images/testimonials/testimonial-shape.svg");
+  background-size: 160px;
+  background-repeat: no-repeat;
+  background-position: 85% bottom;
+}
+.gymateGalleryBg {
+  background-image: url("../../public/images/gallery/bg-icon.png");
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: right 5%;
+}
+.BmiBg {
+  background-image: url("../../public/images/bmi/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+@media (max-width: 768px) {
+  .BmiBg {
+    background-position: 84% center;
+  }
+}
+.pricingChartBg {
+  background-image: url("../../public/images/pricing/bg-text.png"), url("../../public/images/pricing/bg-dumbell.png"),  url("../../public/images/pricing/background.jpg");
+  background-size: 250px, 250px, cover;
+  background-repeat: no-repeat;
+  background-position: left 20%, right 80%, center center;
+}
+.needAFitTrainBg {
+  background-image: url("../../public/images/call/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 
 
 @keyframes rotate {

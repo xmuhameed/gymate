@@ -8,6 +8,7 @@ import gymImg from "../../public/images/who-we-are/gym.png";
 import Image from "next/image";
 import { MainTitle } from "../ui/MainTitle";
 import { Button } from "../ui/Button";
+import Link from "next/link";
 
 export const WhoWeAre = () => {
   return (
@@ -103,9 +104,9 @@ export const WhoWeAre = () => {
                   <h3 className="font-bold text-lg">FANCY GYM MACHINES</h3>
                 </div>
               </div>
-              <div className="max-lg:mx-auto max-lg:w-fit max-lg:mb-10">
+              <Link href="/clases" className="max-lg:mx-auto max-lg:w-fit max-lg:mb-10">
                 <Button content="TAKE A TOUR" variant="gray" />
-              </div>
+              </Link>
             </div>
             <div className="whoarediv bg-no-repeat w-[50%] h-[96vh] grid place-content-center relative max-lg:hidden">
               <Image
