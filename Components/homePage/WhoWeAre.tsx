@@ -104,7 +104,7 @@ export const WhoWeAre = () => {
                   <h3 className="font-bold text-lg">FANCY GYM MACHINES</h3>
                 </div>
               </div>
-              <Link href="/clases" className="max-lg:mx-auto max-lg:w-fit max-lg:mb-10">
+              <Link href="/clases" className="max-lg:mx-auto max-lg:w-fit max-lg:mb-20 max-lg:block">
                 <Button content="TAKE A TOUR" variant="gray" />
               </Link>
             </div>

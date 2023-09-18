@@ -109,11 +109,6 @@
   background-repeat: no-repeat;
   background-position: right;
 }
-@media (max-width: 768px) {
-  .BmiBg {
-    background-position: 84% center;
-  }
-}
 .pricingChartBg {
   background-image: url("../../public/images/pricing/bg-text.png"), url("../../public/images/pricing/bg-dumbell.png"),  url("../../public/images/pricing/background.jpg");
   background-size: 250px, 250px, cover;
@@ -125,6 +120,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
+}
+@media (max-width: 768px) {
+  .BmiBg {
+    background-position: 75% center;
+  }
+  .needAFitTrainBg {
+    background-position: 45% center;
+  }
 }
 
 

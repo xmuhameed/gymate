@@ -12,7 +12,7 @@ import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 export const Testimonials = () => {
   return (
     <section className="py-16 border-b-2 border-gray-200 border-solid">
-      <div className="mx-10 xl:mx-36">
+      <div className="mx-4 xl:mx-36">
         <div className="w-fit mx-auto mb-16 md:mb-44">
           <MainTitle content="TESTIMONIALS" />
         </div>
@@ -24,7 +24,7 @@ export const Testimonials = () => {
             alt="TESTIMONIALS Image"
             className="max-lg:hidden absolute bottom-6 left-6 rounded-tr-[200px]"
           />
-          <div className="testiMonialsBg bg-black m-6 py-10 px-6 md:px-16">
+          <div className="testiMonialsBg bg-black m-6 py-6 md:py-10 px-4 md:px-16">
             <div className="lg:ml-[43%]">
             <Image
             src={quote}

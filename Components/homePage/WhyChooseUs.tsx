@@ -34,7 +34,7 @@ export const WhyChooseUs = () => {
             and nutrition plan that helps you reach your specific goals.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-6 mb-24">
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-start items-center gap-4">
                 <Image
                     src={training}
                     width={70}
@@ -44,7 +44,7 @@ export const WhyChooseUs = () => {
                 />
                 <h3 className="md:text-xl font-bold text-white">Free Fitness Training</h3>
             </div>
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-start items-center gap-4">
                 <Image
                     src={benchPress}
                     width={70}
@@ -54,7 +54,7 @@ export const WhyChooseUs = () => {
                 />
                 <h3 className="md:text-xl font-bold text-white">Modern Gym Equipments</h3>
             </div>
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-start items-center gap-4">
                 <Image
                     src={gymBag}
                     width={70}
@@ -64,7 +64,7 @@ export const WhyChooseUs = () => {
                 />
                 <h3 className="md:text-xl font-bold text-white">Gym Bag Equipments</h3>
             </div>
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-start items-center gap-4">
                 <Image
                     src={bottleOfWater}
                     width={70}
@@ -75,7 +75,7 @@ export const WhyChooseUs = () => {
                 <h3 className="md:text-xl font-bold text-white">Fresh Bottle Watter</h3>
             </div>
           </div>
-          <Link href="/clases" className="max-lg:mx-auto max-lg:w-fit">
+          <Link href="/clases" className="max-lg:mx-auto max-lg:w-fit max-lg:block">
             <Button content="OUR CLASSES" variant="gray"/>
             </Link>
         </div>

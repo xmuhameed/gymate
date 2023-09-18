@@ -34,14 +34,14 @@ export const Bmi = () => {
               placeholder="Weight/Kg"
               name="weight"
               id="weight"
-              className="w-1/3 px-3 py-3 bg-transparent border-2 border-gray-600 border-solid"
+              className="w-1/3 px-3 py-3 bg-transparent border-2 border-gray-600 border-solid text-white"
             />
             <input
               type="text"
               placeholder="Height/Cm"
               name="height"
               id="height"
-              className="w-1/3 px-3 py-3 bg-transparent border-2 border-gray-600 border-solid"
+              className="w-1/3 px-3 py-3 bg-transparent border-2 border-gray-600 border-solid text-white"
             />
           </div>
           <div className="flex gap-3 mt-7 mb-7">
@@ -49,7 +49,7 @@ export const Bmi = () => {
               Your BMI is: <span className="text-[var(--mainRed)]">{bmiResult.length > 0 && bmiResult}</span>
             </div>
             <div className="text-white text-lg w-1/3">
-              Your weight is: <span className="text-[var(--mainRed)]"></span>
+              Your weight is: <span className="text-[var(--mainRed)]">{weightResult.length > 0 && weightResult}</span>
             </div>
           </div>
           <input type="submit" value="CALCULATE" className="font-bold text-white text-lg px-5 py-3 bg-[var(--mainGray)] hover:bg-[var(--mainRed)] duration-200 cursor-pointer" />

@@ -9,7 +9,7 @@ export const GalleryAbout = () => {
     <section className="py-20">
       <div className="mx-10 xl:mx-36">
         <div className="flex justify-center items-center max-lg:flex-col">
-          <div className="lg:w-1/2 grid place-content-center gap-5 text-center p-20">
+          <div className="lg:w-1/2 grid place-content-center gap-5 text-center p-4 md:p-20">
             <Image src={target} alt="Gymate Gallery" className="mx-auto w-1/5" />
             <h3 className="font-bold text-2xl">Our History</h3>
             <p className="text-gray-700 text-base">
@@ -26,7 +26,7 @@ export const GalleryAbout = () => {
           <div className="lg:w-1/2">
             <Image src={img4} alt="Gymate Gallery" className="w-full" />
           </div>
-          <div className="lg:w-1/2 grid place-content-center gap-5 text-center p-20">
+          <div className="lg:w-1/2 grid place-content-center gap-5 text-center p-4 md:p-20">
             <Image src={mountain} alt="Gymate Gallery" className="mx-auto w-1/5" />
             <h3 className="font-bold text-2xl">Our History</h3>
             <p className="text-gray-700 text-base">
