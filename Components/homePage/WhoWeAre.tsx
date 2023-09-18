@@ -13,7 +13,7 @@ import Link from "next/link";
 export const WhoWeAre = () => {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 place-content-around absolute -mt-12 mb-10 mx-10 xl:mx-36">
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-7 place-content-around absolute -mt-12 mb-10 mx-10 xl:mx-36">
         <div className="bgHover xl-w-[25vw] bg-white shadow-2xl rounded-tl-[40px] rounded-br-[40px] text-black hover:text-white text-center grid place-content-center py-20 px-8">
           <Image
             src={progresion}
@@ -56,7 +56,7 @@ export const WhoWeAre = () => {
             helps you reach your specific health goals.
           </p>
         </div>
-      </div>
+      </section>
       <section className="min-h-screen bg-cover bg-center whoAreWeBg">
         <div className="mx-10 xl:mx-36 pt-[69rem] sm:pt-[63rem] md:pt-[62rem] lg:pt-80 ">
           <div className="flex justify-center items-center mt-16 mb-36">

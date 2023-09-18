@@ -6,7 +6,6 @@ import { MainTitle } from "../ui/MainTitle";
 
 export const Hero = () => {
   return (
-    <>
     <section className="bgh md:bg-center">
     <div className=" h-screen w-full flex justify-center items-center">
       <div className="w-[10%] md:w-[53%]"></div>
@@ -36,7 +35,5 @@ export const Hero = () => {
       <BiLogoFacebook className="text-white text-3xl mt-3 cursor-pointer hover:text-[var(--mainRed)]" />
     </div>
   </section>
-
-  </>
   )
 }
