@@ -19,6 +19,8 @@ import Link from "next/link";
 import { Button } from "../ui/Button";
 
 export const ClassesComponents = () => {
+  const lessNumber = 7;
+    const [more, setMore] = useState(lessNumber);
   const [classData, setClassData] = useState([
     {
       id: 1,
@@ -105,23 +107,22 @@ export const ClassesComponents = () => {
       time: "Sun: 5:00 pm",
     },
   ]);
-  const [more, setMore] = useState(false);
-  const [classes, setClasses] = useState([]);
   return (
     <>
       {classData.map((item) => {
+        if (item.id > more) return null;
         return (
           <div
-            className="relative rounded-2xl w-full h-[65vh] overflow-hidden px-3 lg:px-10"
+            className="relative rounded-2xl h-[45vh] md:h-[60vh] overflow-hidden px-3 lg:px-10"
             key={item.id}
           >
             <Image
               src={item.image}
               alt="image"
               fill
-              className="absolute top-0 left-0 brightness-75"
+              className="absolute top-0 left-0 brightness-75 w-[150%]"
             />
-            <div className="mt-[70%]">
+            <div className="mt-[50%] md:mt-[65%]">
               <h2 className="font-bold text-3xl w-fit text-white mb-10 relative after:content-[''] after:absolute after:-bottom-3 after:left-0 after:bg-[var(--mainRed)] after:h-1 after:w-2/5 hover:after:w-full after:duration-300">
                 {item.title}
               </h2>
@@ -142,6 +143,14 @@ export const ClassesComponents = () => {
           </div>
         );
       })}
+        <div className=" absolute -bottom-28 left-1/2 -translate-x-1/2 w-fit mx-auto flex justify-center items-center" onClick={() => more == lessNumber ? setMore(classData.length) : setMore(lessNumber)}>
+            <Button
+            variant="gray"
+            arrow={`${more != lessNumber && "no"}`}
+            border={false}
+            content={`${more == lessNumber ? "Show More" : "Show Less"}`}
+            />
+        </div>
     </>
   );
 };
