@@ -1,13 +1,13 @@
 import { Landing } from '@/Components/Landing';
-import React from 'react'
+import { ScheduleComponent } from '@/Components/schedulePage/ScheduleComponent';
 
 const schedule = () => {
   return (
     <>
     <Landing mainHeading="Schedule by Day"/>
-    <div className="w-sreen mx-8">
-      
-    </div>
+    <section className="w-sreen py-20 mx-10 xl:mx-32">
+        <ScheduleComponent />
+    </section>
   </>
   )
 }
