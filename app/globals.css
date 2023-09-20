@@ -45,3 +45,9 @@
 .title-white {
   filter: brightness(0) invert(1);
 }
+.blog-banner {
+  background-image: url(../public/images//blogpage/sidebar1.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
