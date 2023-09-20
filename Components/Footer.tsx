@@ -31,6 +31,7 @@ export const Footer = () => {
               target="_blank"
               rel="MohamedMostafa"
               href="https://www.mohamedmostafa.me/"
+              className='font-bold hover:text-[var(--mainRed)]'
             >
               Mohamed Mostafa
             </a>
